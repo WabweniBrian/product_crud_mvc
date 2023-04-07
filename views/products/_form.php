@@ -14,7 +14,7 @@
                <label class="form-label">Product Image</label>
                <input type="file" name="image" class="form-control">
                <?php if ($product['image']) : ?>
-               <img src="/<?= $product['image'] ?>" alt="" class="mt-2">
+               <img src="/<?= $product['image'] ?>" alt="" class="mt-2 avatar">
                <?php endif; ?>
            </div>
 
