@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
-<main>
-    <?= $content ?>
-</main>
 
 <body>
+    <main>
+        <?= $content ?>
+    </main>
+
 </body>
 
 </html>

@@ -58,6 +58,7 @@ class ProductController
     public function update(Router $router)
     {
         $id = $_GET['id'] ?? null;
+        if (!$id) header('Location: /');
         $errors = [];
         $productData = $router->db->find($id);
 
