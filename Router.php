@@ -41,6 +41,7 @@ class Router
         }
 
         if ($callback) {
+
             call_user_func($callback, $this);
         } else {
             http_response_code(404);
